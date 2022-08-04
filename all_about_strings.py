@@ -1,4 +1,4 @@
-def allaboutstrings(word):
+def all_about_strings(word):
     if len(word) > 2:
         length = len(word)
         first = word[0]
