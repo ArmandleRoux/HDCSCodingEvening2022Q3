@@ -1,8 +1,9 @@
 def all_about_strings(word):
     if len(word) > 2:
+        # Add length of word, first and last letter to list.
         answers_list = [len(word), word[0], word[-1]]
         # Check if word length is even or odd to determine
-        # middle
+        # middle letter/s
         if len(word) % 2 > 0:
             answers_list.append(word[int(len(word)/2)])
         else:
