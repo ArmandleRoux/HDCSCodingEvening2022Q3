@@ -1,4 +1,4 @@
-def allAboutStrings(word):
+def allaboutstrings(word):
     if len(word) > 2:
         length = len(word)
         first = word[0]
@@ -13,7 +13,3 @@ def allAboutStrings(word):
             index = "not found"
         return [length, first, last, middle, index]
     return []
-
-print(allAboutStrings("LASA"))
-print(allAboutStrings("Computer"))
-print(allAboutStrings("Science"))
